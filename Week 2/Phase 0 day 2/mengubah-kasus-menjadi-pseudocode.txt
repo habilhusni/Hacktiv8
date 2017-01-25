@@ -1,0 +1,21 @@
+#TUGAS 1
+BACA dan SIMPAN "angka pertama"
+BACA dan SIMPAN "angka kedua"
+HITUNG "angka pertama" dikali "angka kedua"
+SIMPAN hasil hitungan sebelumnya
+TAMPILKAN hasil hitungan
+
+#TUGAS 2
+BACA dan SIMPAN "input kata"
+IF "input kata" sama dengan "Saya Belajar JavaScript!"
+    TAMPILKAN "Pasti Bisa!"  
+ENDIF
+
+#TUGAS 3
+BACA dan SIMPAN "angka"
+"hitung" sama dengan 1
+ULANGI "hitung" sama dengan "hitung" ditambah 1
+IF "hitung" habis dibagi 3
+    TAMPILKAN "hitung"
+ENDIF
+SAMPAI "hitung" sama dengan "angka"

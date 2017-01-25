@@ -1,0 +1,38 @@
+for(var counter=1; counter<=100; counter++){
+  if(counter%2 == 0){
+    console.log('GENAP');
+  }
+  else if(counter%2 != 0){
+    console.log('GANJIL');
+  }
+}
+
+for(var counter=1; counter<=100; counter=counter+2){
+  var cont = 3;
+  if(counter%cont == 0){
+    console.log(counter + ' KELIPATAN ' + cont);
+  }
+  else if(counter%cont != 0){
+    console.log('');
+  }
+}
+
+for(var counter=1; counter<=100; counter=counter+5){
+  var cont = 6
+  if(counter%cont == 0){
+    console.log(counter + ' KELIPATAN ' + cont);
+  }
+  else if(counter%cont != 0){
+    console.log('');
+  }
+}
+
+for(var counter=1; counter<=100; counter=counter+9){
+  var cont = 10;
+  if(counter%cont == 0){
+    console.log(counter + ' KELIPATAN ' + cont);
+  }
+  else if(counter%cont != 0){
+    console.log('');
+  }
+}
