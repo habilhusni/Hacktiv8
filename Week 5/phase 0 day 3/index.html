@@ -1,0 +1,87 @@
+<html>
+
+  <head>
+    <title>Validasi Form</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 50px;
+        font-family: 'arial';
+      }
+      .btn {
+        margin: 10px;
+        margin-left: 37%;
+        width: 20%;
+        background: #446CB3;
+        color: #FFFFFF;
+        padding: 10px 20px;
+        border: 0;
+        outline: none;
+        font-size: 1.5em;
+        border-radius: 8px;
+        border-bottom: 5px solid #34495E;
+      }
+      .btn:hover {
+        border-bottom: 2px solid #34495E;
+        margin-top: 13px;
+      }
+      input[type=text],[type=password] {
+        width: 90%;
+        padding: 10px 30px;
+        font-size: 1em;
+        margin: 10px;
+        border-radius: 8px;
+        border: 1px solid rgba(0,0,0, .2);
+        outline: none;
+      }
+      input[placeholder] {
+        text-align: center;
+      }
+      p {
+        margin: 5px;
+        font-size: 1em;
+      }
+      form {
+        position: relative;
+        margin: auto;
+        padding: 20px;
+        width: 50%;
+        border-radius: 8px;
+        border: 5px solid;
+        border-color: black;
+      }
+      span {
+        color: #019875;
+      }
+      h1 {
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="container">
+      <h1>Registration Form</h1>
+      <form id="main-form">
+          <p>Username: </p>
+          <input id="username" value="" name="myValue" type="text" placeholder="type username" />
+
+          <p>Password: </p>
+          <input id="password" value="" type="password" placeholder="type password" />
+
+          <p>Confirm Password: </p>
+          <input id="confirm password" value="" type="password" placeholder="type confirm password" />
+
+          <p>Email: </p>
+          <input id="email" value="" type="text" placeholder="type email" />
+
+          <p>Confirm Email: </p>
+          <input id="confirm email" value="" type="text" placeholder="type confirm email" />
+
+          <input type="submit" class="btn" value="Submit" />
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+  
+</html>
