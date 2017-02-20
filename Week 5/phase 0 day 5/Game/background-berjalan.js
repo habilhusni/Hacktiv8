@@ -1,7 +1,7 @@
 var body = document.body;
 
 
-body.style.background = 'url("img/valley-wide700.jpg") repeat-x center';
+body.style.background = 'url("img2/valley-wide700.jpg") repeat-x center';
 
 
 var img = document.createElement('img');
@@ -57,7 +57,7 @@ rapAsk.style.position = 'absolute';
 rapAsk.style.top = '80px';
 rapAsk.style.left = '720px';
 rapAsk.style.backgroundColor = 'white';
-rapAsk.style.background = 'url("img/askBoxEdit.png") no-repeat center';
+rapAsk.style.background = 'url("img2/askBoxEdit.png") no-repeat center';
 
 
 //Flynn
@@ -94,7 +94,7 @@ flynnAns.style.position = 'absolute';
 flynnAns.style.top = '350px';
 flynnAns.style.left = '650px';
 flynnAns.style.backgroundColor = 'white';
-flynnAns.style.background = 'url("img/askBoxEdit.png") no-repeat center';
+flynnAns.style.background = 'url("img2/askBoxEdit.png") no-repeat center';
 
 
 var image = document.getElementById('tower');
@@ -103,10 +103,10 @@ var char2 = document.getElementById('rapunzelHair');
 var char3 = document.getElementById('flynnRider');
 
 
-image.src = "img/tower.jpg";
-char1.src = "img/rapunzelEdit2.png";
-char2.src = "img/hairRapunzel.png";
-char3.src = "img/flynnRyderEdit.png";
+image.src = "img2/tower.jpg";
+char1.src = "img2/rapunzelEdit2.png";
+char2.src = "img2/hairRapunzel.png";
+char3.src = "img2/flynnRyderEdit.png";
 
 
 char2.style.width = '45px';
